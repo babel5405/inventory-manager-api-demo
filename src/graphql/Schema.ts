@@ -26,7 +26,7 @@ var schema = buildSchema(`
   type Mutation {
     AddCategory(name: String!, description: String!): Category
     AddLocation(name: String!, description: String!): Location
-    AddItem(name: String!, description: String!, locationId: Int!, categoryId: Int!): Location
+    AddItem(name: String!, description: String!, locationId: Int!, categoryId: Int!): Item
     RemoveCategory(id: Int!) : String
     RemoveLocation(id: Int!) : String
     RemoveItem(id: Int!) : String

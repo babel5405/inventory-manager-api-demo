@@ -7,6 +7,7 @@ import GetAllLocations from './endpoints/getAllLocations/GetAllLocations';
 import RemoveItem from './endpoints/removeItem/RemoveItem';
 import RemoveLocation from './endpoints/removeLocation/removeLocation';
 import RemoveCategory from './endpoints/removeCategory/RemoveCategory';
+import { FileWatcherEventKind } from 'typescript';
 
 // The root provides a resolver function for each API endpoint
 var root = {
